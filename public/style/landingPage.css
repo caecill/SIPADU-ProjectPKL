@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(135deg, #ffffff 50%, #3228A6 40%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-landing {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2), 0 -5px 5px rgba(0,0,0,0.2);
+    width: 800px;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    margin-bottom: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.judul{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 5px 0 ;
+}
+
+.btn-custom {
+    background-color: #3228A6;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 120px;
+    margin: 5px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+.btn-custom:hover {
+    background-color: #1c1d6d;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+}
+
+.biru{
+    color: #3228A6;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle p{
+    margin: 0;
+}

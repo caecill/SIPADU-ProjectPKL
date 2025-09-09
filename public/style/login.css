@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(135deg, #ffffff 50%, #3228A6 40%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2), 0 -5px 5px rgba(0,0,0,0.2);
+    width: 800px;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    margin-bottom: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.judul{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 5px 0 ;
+}
