@@ -1,0 +1,18 @@
+/* contoh: style untuk wrapper layout dan sidebar */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #3228A6;
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f9f9f9;
+}

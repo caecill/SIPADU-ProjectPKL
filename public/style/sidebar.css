@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #3228A6; /* warna biru sesuai desain */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 3px 0 10px rgba(0,0,0,0.15);
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 0 10px 20px;
+}
+
+.sidebar-logo img {
+  width: 80px;
+  height: auto;
+}
+
+.sidebar-logo h2 {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin: 15px 0;
+}
+
+.sidebar-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  transition: 0.3s, padding-left 0.3s;
+}
+
+.sidebar-menu a:hover {
+  background: rgba(255,255,255,0.1);
+  padding-left: 30px; /* efek geser */
+  border-radius: 8px;
+}
+
+.sidebar-menu i {
+  width: 20px;
+  text-align: center;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}

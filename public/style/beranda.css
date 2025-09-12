@@ -1,0 +1,35 @@
+.beranda-container {
+    padding: 20px;
+    display: flex;
+}
+
+.search-bar input {
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.konten{
+    display: flex;
+}
+
+.info-box {
+    background-color: #3228A6;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.labels button {
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 3px 12px;
+}
+
+.table thead th {
+    font-weight: bold;
+}
+
+.preview-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}

@@ -13,3 +13,7 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view ('signup');
 })->name('signup');
+
+Route::get('/beranda', function () {
+    return view('beranda');
+})->name('beranda');
