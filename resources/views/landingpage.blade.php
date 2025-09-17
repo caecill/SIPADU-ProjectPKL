@@ -23,9 +23,8 @@
                         Terpadu<span class="biru">U</span>
                     </p>
                 </div>
-                <div class="mt-4">
+                <div class="tombol">
                     <a href="{{ route('login') }}" class="btn btn-custom">Log In</a>
-                    <a href="{{ route('signup') }}" class="btn btn-custom">Sign Up</a>
                 </div>
             </div>
     </div>

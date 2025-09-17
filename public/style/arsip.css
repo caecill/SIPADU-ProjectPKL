@@ -1,0 +1,125 @@
+.content-container{
+    padding-left: 250px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.search-bar input {
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.info-box {
+    background-color: #3228A6;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    height: 100px;
+}
+
+.btn-add {
+  background-color: #3228A6; 
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-add:hover{
+    background-color:#261f80 ;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 999; 
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #999;
+}
+
+.close:hover {
+  color: #000;
+}
+
+/* Form input */
+#boxForm label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#boxForm input, 
+#boxForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button simpan */
+.btn-simpan {
+  background-color: #3228A6; /* biru */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-simpan:hover {
+  background-color: #261f80;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.box {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.box-image {
+  width: 100%;
+  height: 120px;             /* tinggi area gambar */
+  background-color: #eee;    /* placeholder gambar */
+}
+
+.box-content {
+  padding: 10px;
+}

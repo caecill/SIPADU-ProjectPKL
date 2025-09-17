@@ -1,6 +1,8 @@
 .beranda-container {
-    padding: 20px;
-    display: flex;
+    padding-left: 250px; /* cuma padding kiri */
+    padding-top: 20px;     /* atas 0 */
+    padding-right: 20px;   /* kanan 0 */
+    padding-bottom: 20px;  /* bawah 0 */
 }
 
 .search-bar input {
@@ -9,7 +11,9 @@
 }
 
 .konten{
-    display: flex;
+    display: block;
+    flex-direction: column;
+    width: 100%;
 }
 
 .info-box {
@@ -17,6 +21,7 @@
     color: white;
     border-radius: 15px;
     display: inline-block;
+    height: 100px;
 }
 
 .labels button {
